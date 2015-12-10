@@ -41,7 +41,7 @@ public class WikiRetrieval {
     }
     public List<ScoredDocument> runQuery(String query) {
         try {
-            String jsonConfigFile = "qrel/search.params";
+            String jsonConfigFile = "search.params";
             query = query.replaceAll("#","");
             query = query.replaceAll("\"","");
 
@@ -59,7 +59,7 @@ public class WikiRetrieval {
 
             String tokenizedQuery = StrUtil.join(d.terms, " ");
             Node root = StructuredQuery.parse("#sdm(" + tokenizedQuery + ")");
-          //  System.out.println("Query: " + tokenizedQuery);
+           // System.out.println("Query: " + tokenizedQuery);
             Node transformed = retrieval.transformQuery(root, p);
             results = (List<ScoredDocument>) retrieval.executeQuery(transformed, p).scoredDocuments; // issue the query!
 

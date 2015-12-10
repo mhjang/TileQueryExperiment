@@ -1,6 +1,7 @@
 package Tokenizer;
 
 
+import utils.QuoteReplace;
 import utils.SimpleFileReader;
 
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ public class StopWordRemover {
             stopwords = new HashSet<String>();
             while(sr.hasMoreLines()) {
                 String line = sr.readLine().replace("\n","");
-                stopwords.add(line.toLowerCase().trim());
+                stopwords.add(QuoteReplace.replaceQuote(line.toLowerCase().trim()));
             }
             sr.close();
         }catch(Exception e) {

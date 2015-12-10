@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -37,7 +37,7 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:7.6.8.v20121106" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.8" level="project" />
     <orderEntry type="library" name="Maven: org.tukaani:xz:1.5" level="project" />
-    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.3" level="project" />
     <orderEntry type="library" name="Maven: DocumentClustering:teachingdocs:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: de.bwaldvogel:liblinear:1.94" level="project" />
     <orderEntry type="library" name="Maven: com.clearnlp:clearnlp:2.0.2" level="project" />

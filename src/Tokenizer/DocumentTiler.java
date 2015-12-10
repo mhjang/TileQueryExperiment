@@ -1,6 +1,6 @@
 package Tokenizer;
 
-import myungha.utils.SimpleFileReader;
+import utils.SimpleFileReader;
 import simple.io.myungha.DirectoryReader;
 import simple.io.myungha.SimpleFileWriter;
 
